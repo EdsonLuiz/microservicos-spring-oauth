@@ -20,11 +20,18 @@
 		<spring-cloud.version>Hoxton.SR3</spring-cloud.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
-			<groupId>com.edson.app.commons.usuarios</groupId>
-			<artifactId>servico-commons-usuarios</artifactId>
-			<version>0.0.1-snapshot</version>
+			<groupId>com.github.EdsonLuiz</groupId>
+			<artifactId>microservicos-spring-commons-usuarios</artifactId>
+			<version>0.0.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
