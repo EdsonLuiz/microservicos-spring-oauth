@@ -9,5 +9,5 @@ import com.edson.app.commons.usuarios.models.entities.Usuario;
 @FeignClient(name="servico-usuarios")
 public interface UsuarioFeignClient {
 	@GetMapping("/usuarios/search/findusername")
-	public Usuario findByUserName(@RequestParam String username); 
+	public Usuario findByUserName(@RequestParam String name); 
 }
